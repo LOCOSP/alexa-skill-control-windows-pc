@@ -1,6 +1,8 @@
 # alexa-skill-control-windows-pc
 Simple Alexa skill working like a bridge with EventGhost on Windows PC
 
+
+
 Intent-Schema.json: 
 
 Example of Intent Schema for Alexa Skill.
@@ -20,6 +22,9 @@ and paste it just below adding a comma between them, just like here
       "intent": "CLOSEBROWSER"
     }
   
+
+
+
 
 Utterances.txt:
 

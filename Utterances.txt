@@ -1,0 +1,4 @@
+OPENBROWSER Open browser
+OPENBROWSER Open Chrome
+OPENBROWSER Open new browser window
+OPENBROWSER browse Internet

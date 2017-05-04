@@ -1,0 +1,43 @@
+<head>
+   <title>bridge</title>
+ </head>
+ <body>
+ <style>
+body {
+    background-color: #e5e5e5;
+}
+
+h1 {
+	font-family: Verdana;
+    color: #666633;
+    margin-left: 70px;
+    font-size: 24px;
+} 
+h2 {
+	font-family: Verdana;
+    color: #999900;
+    margin: 0;
+    font-size: 14px;
+} 
+p {
+    margin: 0;
+} 
+</style>
+ <h1>System Log</h1>
+<h2>
+	<pre>
+
+     <p id="log"></p>
+
+
+    <script type="text/javascript">
+        var read = new XMLHttpRequest();
+        read.open('GET', 'EG_WTTF.txt', false);
+        read.send();
+
+        var displayName = (read.responseText)
+        document.getElementById("log").innerHTML = displayName;
+   </script>
+</pre>
+</h2>
+ </body>
